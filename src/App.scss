@@ -1,0 +1,27 @@
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 1rem;
+}
+
+.counter {
+  position: relative;
+  &__item {
+    border: 1px solid #DDD;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+  &__button {
+    border: none;
+    padding: 0.5rem 1rem;
+    width: 50px;
+    color: #FFF;
+    font-size: 1.4rem;
+    &--add {
+      background-color: #26A65B;
+    }
+    &--delete {
+      background-color: #DC3023;
+    }
+  }
+}
